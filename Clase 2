@@ -1,2 +1,23 @@
 https://github.com/CoderContenidos/Desarrollo-Avanzado-Backend/
 Base para proyecto final
+no se usa más var, está mal.
+se usa let 
+ej 
+let nombre = Juan;
+function algo() {
+let bla; //solo existe aca dentro de la funcion
+}
+const se define costante es decir no se puede cambiar, sirve para bases de datos por ejemplo
+[] es para arrays --> array.push("feli"); agrega al vector el nombre feli.
+se define con const nombres = []; puedo ir agregando pero no puedo cambiar los agregados.
+{} es para objetos
+const persona {
+  nombre = "feli",
+  edad = 15
+};
+FUNCIONES:
+function saludar(nombre) {
+  return 'Bienvenido ${nombre}';
+}
+saludar("Juan);
+
