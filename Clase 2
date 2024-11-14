@@ -20,4 +20,4 @@ function saludar(nombre) {
   return 'Bienvenido ${nombre}';
 }
 saludar("Juan);
-
+leer sobre métodos, instancias y clases en javascript
